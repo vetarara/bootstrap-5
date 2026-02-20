@@ -1,0 +1,75 @@
+/* 1. свойства для стики-футера - подключены через классы bootstrap*/
+/* body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+} */
+
+:root {
+    /* 2. можно поменять значения брейкпоинтов */
+    /* --bs-breakpoint-xs: 0;
+    --bs-breakpoint-sm: 576px;
+    --bs-breakpoint-md: 768px;
+    --bs-breakpoint-lg: 992px;
+    --bs-breakpoint-xl: 1200px;
+    --bs-breakpoint-xxl: 1400px; */
+    color: var(--bs-body-color);
+    --bs-body-color: #ffffff;
+    --bs-body-bg: #010001;
+}
+
+h2 {
+	margin: 50px 0 25px;
+}
+
+.easy-hw div {
+	border-left: 1px solid var(--bs-white);
+	border-right: 1px solid var(--bs-white);
+	border-top: 3px solid var(--bs-white);
+	border-bottom: 3px solid var(--bs-white);
+	background-color: var(--bs-gray-500);
+	color: var(--bs-black);
+}
+
+.logo,
+.social {
+	background-color: var(--bs-cyan);
+}
+
+.top-nav {
+	background-color: var(--bs-blue);
+}
+
+.hero {
+	background-color: var(--bs-teal);
+}
+
+.action {
+	background-color: var(--bs-green);
+}
+
+.ad {
+	background-color: #16462f;
+
+}
+
+.left {
+	background-color: #f7d162;
+}
+
+.article {
+	background-color: var(--bs-yellow);
+}
+
+.right {
+	background-color: #dda600;
+}
+
+.footer {
+	background-color: var(--bs-orange);
+}
+
